@@ -62,5 +62,5 @@ npm run deploy
 ## 👤 Author
 **Amrendra**
 - GitHub: [@imamrendra7](https://github.com/imamrendra7)
-- LinkedIn: [Amrendra](https://www.linkedin.com/in/imamrendra-76-/)
+- LinkedIn: [Amrendra Kumar](https://www.linkedin.com/in/imamrendra-76-/)
 - Email: amrendrabahu766@gmail.com
