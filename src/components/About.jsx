@@ -113,7 +113,7 @@ export default function About() {
 
               {/* CTA */}
               <motion.a
-                href="/Amrendra_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Amrendra_Resume.pdf`}
                 download="Amrendra Resume.pdf"
                 className="btn-primary inline-flex items-center gap-2 mt-4"
                 whileHover={{ scale: 1.05 }}

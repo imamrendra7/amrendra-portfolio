@@ -205,7 +205,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="/Amrendra_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Amrendra_Resume.pdf`}
               download="Amrendra Resume.pdf"
               className="btn-outline flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
@@ -270,7 +270,7 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-cyan-600 p-1">
                 <div className="w-full h-full rounded-full bg-dark-800 flex items-center justify-center overflow-hidden">
                   <img
-                    src="/profile.jpg"
+                    src={`${import.meta.env.BASE_URL}profile.jpg`}
                     alt="Amrendra"
                     className="w-full h-full object-cover object-top rounded-full transition-transform duration-500 hover:scale-105"
                   />

@@ -134,7 +134,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-3">
             <ThemeToggle />
             <motion.a
-              href="/Amrendra_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Amrendra_Resume.pdf`}
               download="Amrendra Resume.pdf"
               className="btn-primary text-sm py-2 px-5"
               whileHover={{ scale: 1.05 }}
@@ -191,7 +191,7 @@ export default function Navbar() {
                 </motion.a>
               ))}
               <motion.a
-                href="/Amrendra_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Amrendra_Resume.pdf`}
                 download="Amrendra Resume.pdf"
                 className="btn-primary text-center mt-4"
                 initial={{ opacity: 0 }}

@@ -144,7 +144,7 @@ Get in Touch:
     output: 'Initiating resume download...',
     action: () => {
       const a = document.createElement('a');
-      a.href = '/Amrendra_Resume.pdf';
+      a.href = `${import.meta.env.BASE_URL}Amrendra_Resume.pdf`;
       a.download = 'Amrendra_Resume.pdf';
       a.click();
     },
